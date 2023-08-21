@@ -18,5 +18,9 @@ function search(){
     }
 }
 
+function dismiss(){
+    location.href = "index.html";
+}
+
 
 

@@ -22,7 +22,7 @@ main{
     font-family: 'Roboto', sans-serif;
     background-color: white;
     height: 500px;
-    width: 900px;
+    width: 800px;
     border-radius: 10px;
 }
 .web {
@@ -70,11 +70,13 @@ form button{
     background-color: hsl(234, 29%, 20%);
     color: white;
     border: none;
+    transition: 0.5s;
 }
 
 form button:hover{
     cursor: pointer;
     background-image: linear-gradient(to right, hsl(4, 100%, 67%),  hsl(4, 100%, 55%));
+    box-shadow: 5px 5px 10px hsl(4, 100%, 67%);
 }
 
 form input{
@@ -138,6 +140,7 @@ form input:hover{
     border: none;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
 }
 
 #email_name{
@@ -148,4 +151,5 @@ form input:hover{
 #container button:hover{
     cursor: pointer;
     background-image: linear-gradient(to right, hsl(4, 100%, 67%),  hsl(4, 100%, 55%));
+    box-shadow: 5px 5px 10px hsl(4, 100%, 67%);
 }
